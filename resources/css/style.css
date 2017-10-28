@@ -43,3 +43,36 @@ nav ul {
 .mobile-nav {
 	display: none;
 }
+
+.supporting {
+	display: flex;
+	justify-content: center;
+}
+
+.service {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	margin: 3rem;
+	width: 5rem;
+	height: 8rem;
+}
+
+.service img {
+	margin-bottom: 1rem;
+	width: 5rem;
+}
+
+.service img.paper-icon {
+	width: 3.5rem;
+}
+
+
+footer {
+	background-color: azure;
+	padding: 4rem 2rem;
+	display: flex;
+	align-items: center;
+}
