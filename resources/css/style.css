@@ -12,17 +12,18 @@ header {
 	height: 30rem;
 }
 
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
 nav {
 	font-size: 1rem;
 	background-color: cadetblue;	
 	color: white;
 	display: flex;
-	align-items: center;justify-content: space-between;
-}
-
-.container {
-	max-width: 960px;
-	margin: 0 auto;
+	align-items: center;
+	justify-content: space-between;
 }
 
 nav img {
