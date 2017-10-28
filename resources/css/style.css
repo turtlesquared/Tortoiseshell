@@ -4,9 +4,20 @@ html {
 	line-height: 1.4;
 }
 
-.company {
+header {
+	background-image: url(../images/glasses-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 30rem;
+}
+
+nav {
 	font-size: 1rem;
-	background-color: cadetblue;
+	background-color: cadetblue;	
+	color: white;
+	display: flex;
+	align-items: center;justify-content: space-between;
 }
 
 .container {
@@ -14,24 +25,16 @@ html {
 	margin: 0 auto;
 }
 
-.company img {
+nav img {
 	height: 1.5em;
 	padding-right: 1rem;
 	padding-left: 2rem;
 }
 
-.company .container {
-	display: flex;
-	align-items: center;
-	padding: 1rem;
-	font-size: 1rem;
-	color: white;
-}
-
 nav ul {
 	display: flex;
 	list-style: none;
-	align-items: center;
+	align-items: right;
 	justify-content: space-between;
 	padding: 1em 2em;
 }
@@ -39,11 +42,3 @@ nav ul {
 .mobile-nav {
 	display: none;
 }
-
-.top {
-	height: 30rem;
-	background-image: url(../images/glasses-bg.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	margin: 0;
