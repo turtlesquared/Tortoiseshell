@@ -1,15 +1,13 @@
+
+/* Universal Styles */
 html {
 	font-size: 18px;
 	font-family: Helvetica, sans-serif;
-	line-height: 1.4;
+	background-color: white;
 }
 
-header {
-	background-image: url(../images/glasses-bg.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	height: 30rem;
+body {
+	line-height: 1.4;
 }
 
 .container {
@@ -17,8 +15,29 @@ header {
 	margin: 0 auto;
 }
 
+.flex {
+	display: flex;
+}
+
+/* Header */
+
+header {
+	background-image: url(../images/glasses-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 30rem;
+	padding-top: 1rem;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: bold;
+	margin: .67em 0;
+}
+
 nav {
-	font-size: 1rem;
+	font-size: 1rem 0;
 	background-color: cadetblue;	
 	color: white;
 	display: flex;
@@ -26,10 +45,24 @@ nav {
 	justify-content: space-between;
 }
 
+nav div {
+	display: flex;
+	align-items: center;
+}
+
 nav img {
 	height: 1.5em;
-	padding-right: 1rem;
 	padding-left: 2rem;
+	padding-right: 1rem;
+}
+
+ul {
+	margin-right: 1rem;
+}
+
+ul li {
+	display: inline;
+	padding: 0 1rem;
 }
 
 nav ul {
@@ -44,10 +77,28 @@ nav ul {
 	display: none;
 }
 
+header .flex {
+	justify-content: flex-end;
+}
+
+.main-banner {
+	background-color: white;
+	display: inline-block;
+	padding: 0.75rem 5rem;
+	margin-top: 10rem;
+	margin-right: -2rem;
+	line-height: 2.4rem;
+}
+
+/* Supporting Sections */
+
 .supporting {
 	display: flex;
 	justify-content: center;
 }
+
+
+/* Service Section */
 
 .service {
 	display: flex;
@@ -69,10 +120,36 @@ nav ul {
 	width: 3.5rem;
 }
 
+/* Info Section */
+
+.info {
+	width: 35%;
+	margin-right: 5%;
+}
+
+.info p {
+	padding: 1rem 0;
+}
+
+.title {
+	background-color: cadetblue;
+	padding: 0.5rem 1.25rem;
+	font-weight: bold;
+	color: white;
+	max-width: 10rem;
+}
+
+/* Footer */
 
 footer {
 	background-color: azure;
 	padding: 4rem 2rem;
 	display: flex;
 	align-items: center;
+}
+
+footer img {
+	height: 1.5rem;
+	margin-left: 2rem;
+	margin-right: 1rem;
 }
