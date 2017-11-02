@@ -181,7 +181,7 @@ footer img {
 
 /* Phone Screen */
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 640px) {
 	nav span {
 		display: none;
 	}
@@ -201,14 +201,14 @@ footer img {
 	}
 
 	.main-banner {
-		padding: 1rem auto;
-		margin-top: 9rem;
-		margin-right: 2rem;
+		padding: 0 1rem;
+		margin: 7rem auto 0 auto;
+		width: 100%;
+		text-align: center;
 	}
 
 	.main-banner h1 {
-		line-height: 1rem;
-		text-align: center;
+		font-size: 1rem;
 	}
 
 	.supporting {
@@ -219,7 +219,34 @@ footer img {
 	}
 
 	.service {
-		margin-top: 3.77rem;
+		height: auto;
+		margin: .77rem;
+		font-size: .77rem;
+	}
+
+	.info {
+		width: auto;
+	}
+
+	.info .title {
+		width: 100%;
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.info p {
+		padding: 1rem;
+		font-size: .77rem;
+	}
+
+
+
+	footer div {
+		display: none;
+	}
+
+	footer {
+		justify-content: center;
 	}
 
 }
